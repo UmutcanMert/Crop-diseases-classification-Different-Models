@@ -64,16 +64,20 @@ yapılmıştır.
 7. Bu adımda “epochs”, “batch_size”, ”image_height”, “image_widht” parametleri statik
 olarak belirlenmiştir. Bu hem modele uygunluk için hem de optimum sonuçları almak için
 deneme yanılma yoluyla böyle belirlenmiştir.
-
-    # # # a. Ardından veri normalize edilip veri artırma işlemi için “ImageDataGenerator” fonksiyonu kullanılmıştır. Bu fonksiyondaki parametre ayarları yine deneme yanılma yoluyla denenmiş ve buna göre ayarlanmıştır.
-
-
+    
+    a. Ardından veri normalize edilip veri artırma işlemi için “ImageDataGenerator” fonksiyonu kullanılmıştır. Bu fonksiyondaki parametre ayarları yine deneme yanılma yoluyla denenmiş ve buna göre ayarlanmıştır.
 
 Eğitim sırasında epoch sayısı 10,20,40 ve 50 olarak ayarlanmış ve 50 epoch uygun görülmüştür.
 Batch_size kısmında 16,32,64 ve 128 denenmiş ve en iyi ve düzenli sonuçları 32 olduğunda
 alındığı gözlemlenmiştir. Optimizers kısmında “SGD”, “ADAM” türleri kullanılmış ve “Adam”
 türünde çok fazla dengesizlikler olduğu saptanmış ve SGD seçilmiştir. Böylece daha düzenli ve
 güzel sonuçlar alınmaya çalışılmıştır. Loss olarak da “crossentropy” kullanılmıştır.
+
+<p align="center">
+    <img src="13.png" alt="Resim 1">
+</p>
+<hr> 
+<hr>
 
 11. Bu adımla birlikte aslında işlemler tekrarlanıyor. Adım 4’ ü diğer model için uygula, adım
 5 uygula, epoch, batch_size vs ayarla, adım 7-8-9’u uygula sıradaki model için.
