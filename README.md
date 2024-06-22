@@ -18,17 +18,17 @@ Geliştirilen mimari detaylıca şöyledir:
 1. Veri setine ait tüm dosyalar yüklenmiştir ve ardından gerekli kütüphaneler import
 edilmiştir.
 
-<table border="none"; >
+<table style="border-collapse: collapse;">
     <tr>
-        <td>
-            <img src="image.png" alt="">
+        <td style="border: none;">
+            <img src="image.png" alt="Resim 1">
         </td>
-        <td>
-            <img src="2.png" alt="">        
+        <td style="border: none;">
+            <img src="2.png" alt="Resim 2">
         </td>
     </tr>
-    
 </table>
+
 <hr>
 
 “train.csv” dosyası okunup ardından dataframe’e dönüştürülmüştür. Dataframe’e
