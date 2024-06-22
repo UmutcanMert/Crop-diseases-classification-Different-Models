@@ -139,17 +139,10 @@ Parametreler yukarıdaki gibidir. Optimizer olarak SGD (scholastic gradient desc
 Epochlar denenmiş, 40 epoch , batch_size olarak 32 uygun görülmüştür.
 MODELLER BİTTİ. TÜM MODELLERİ KARŞILAŞTIRMAK İÇİN TABLO OLUŞTURULMUŞTUR.
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-</head>
-<body>
 
 <table>
-    
+    <caption>Model Accuracy and Parameters</caption>
     <thead>
         <tr>
             <th>Model</th>
@@ -196,8 +189,8 @@ MODELLER BİTTİ. TÜM MODELLERİ KARŞILAŞTIRMAK İÇİN TABLO OLUŞTURULMUŞT
     </tbody>
 </table>
 
-</body>
-</html>
+
+
 
 
 MODEL NORMALİZE DATA
