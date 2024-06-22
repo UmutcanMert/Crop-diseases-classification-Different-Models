@@ -18,7 +18,7 @@ Geliştirilen mimari detaylıca şöyledir:
 1. Veri setine ait tüm dosyalar yüklenmiştir ve ardından gerekli kütüphaneler import
 edilmiştir.
 
-<table>
+<table border="none"; >
     <tr>
         <td>
             <img src="image.png" alt="">
