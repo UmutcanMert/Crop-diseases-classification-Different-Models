@@ -17,5 +17,11 @@ kurulup eğitilmiş ve grafik ile tablolar oluşturulmuştur.
 Geliştirilen mimari detaylıca şöyledir:
 1. Veri setine ait tüm dosyalar yüklenmiştir ve ardından gerekli kütüphaneler import
 edilmiştir.
-“train.csv” dosyası okunup ardından dataframe’e dönüştürülmüştür.\n Dataframe’e
+
+“train.csv” dosyası okunup ardından dataframe’e dönüştürülmüştür. Dataframe’e
 “label_name” ve “image_path” sütunları eklenmiştir.
+
+Dataframe, train ve test olarak bölünmüştür.
+
+İlk 3 adım için veri seti ayrıca incelenmiş. Bazı sınıfların yoğunlukta olduğu
+gözlemlenmiştir.
