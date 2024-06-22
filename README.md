@@ -19,8 +19,8 @@ Geliştirilen mimari detaylıca şöyledir:
 edilmiştir.
 
 <div class="image-container">
-    <img src="image.png" alt=""weight="200" height="300">
-    <img src="image.png" alt=""weight="200" height="300">
+    <img src="image.png" alt=""weight="150" height="300">
+    <img src="2.png" alt=""weight="150" height="300">
 </div>
 <hr>
 
