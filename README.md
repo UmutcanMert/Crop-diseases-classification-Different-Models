@@ -85,12 +85,14 @@ güzel sonuçlar alınmaya çalışılmıştır. Loss olarak da “crossentropy�
 11. Bu adımla birlikte aslında işlemler tekrarlanıyor. Adım 4’ ü diğer model için uygula, adım
 5 uygula, epoch, batch_size vs ayarla, adım 7-8-9’u uygula sıradaki model için.
 ******************************************************************************************
-VGGNET:
+<h4>VGGNET:</h4>
+
 12. VGGnet için, “VGGnet16” mimarisi uygulanmaya çalışılmıştır. Sırayla önce model kurulup
 sonra compiler edilmiştir. Ardından gerekli ara işlemler uygulanıp eğitilmiştir. Grafik ve
 tablo çizilmiştir.
-Model kurulmuştur:
 
+Model kurulmuştur:
+<hr>
 13. Compile edilip, summary’sine (Katman katman gösterir) bakılmıştır:
 
 14. Parametreler ayarlanıp, data augmentation generator (veri artırma jeneratörü) kodu
@@ -99,21 +101,23 @@ Model kurulmuştur:
 15. Eğitilmeye başlanmıştır. Ve accuracy – loss grafikleri çizilmiştir. Ayrıca diğer metrik
 karşılaştırmaları için tablo oluşturulmuştur.
 
-16. Diğer metriklerin de bulunduğu tablo:
+17. Diğer metriklerin de bulunduğu tablo:
+<hr>
 
-VGGNET İÇİN PARAMETRELER:
-Epochs = 40 / Batch_size = 32 / input_shape=224*224*3 / optimizers: SGD / learning rate:0.0001
-Loss: categorical_crossentropy
 Eğitim sırasında epoch sayısı 20,40 ve 50 olarak denenmiştir. 20 epochta, daha fazla
 eğitilebileceği görülmüştür, 50 epochta da loss değerinin artığı gözlemlenmiştir. 40 epoch
 sonunda iyi bir eğitim süreci geçirdiği gözlemlenmiş ve 40.epochtan sonra val_loss değerinin
 artma eğilimine girdiği gözlemlenmiştir. Bu yüzden 40 epoch uygun görülmüştür.
+
 Batch_size kısmında 16,32,64 denenmiş ve en iyi ve düzenli sonuçları 32 olduğunda alındığı
 gözlemlenmiştir. Optimizers kısmında “SGD”, “ADAM” türleri kullanılmış ve “Adam” türünde çok
 fazla dengesizlikler olduğu saptanmış ve SGD seçilmiştir. Böylece daha düzenli ve güzel sonuçlar
 alınmaya çalışılmıştır. Loss olarak da “crossentropy” kullanılmıştır.
-“”””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””
+
+
+
 RESNET:
+
 Resnet mimarisi için biraz araştırma yaptıktan sonra “Resnet18” mimarisi hem hız hem
 optimize kolaylığından kullanılması kararlaştırılmıştır. Önceki modellerde olduğu gibi model önce
 kurulmuş ardından compile edilmiştir. Sonra da parametre ve diğer ayarlar yapılıp eğitilmiştir.
