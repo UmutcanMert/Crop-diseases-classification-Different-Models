@@ -1,4 +1,4 @@
-#### Crop-diseases-classificatio-Different-Models
+#### Crop-diseases-classification-Different-Models
 [](https://www.kaggle.com/datasets/mexwell/crop-diseases-classification/data)https://www.kaggle.com/datasets/mexwell/crop-diseases-classification/data
 
 Yukarıda belirtilen linkteki ilgili veri seti üzerinde proje uygulanmıştır.
@@ -20,7 +20,7 @@ edilmiştir.
 
 <p align="center">
     <img src="image.png" alt="Resim 1" width="45%">
-    <img src="2.png" alt="Resim 2" width="45%" height="300">
+    <img src="2.png" alt="Resim 2" width="45%" height="290">
 </p>
 
 <hr>
