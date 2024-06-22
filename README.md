@@ -14,13 +14,21 @@ performansı için bir karşılaştırma tablosu
 Mimari de genel olarak önce veri hazırlanmış, gerekli preprocessing işlemler uygulanmış, sonrasında model
 kurulup eğitilmiş ve grafik ile tablolar oluşturulmuştur.
 Geliştirilen mimari detaylıca şöyledir:
+
 1. Veri setine ait tüm dosyalar yüklenmiştir ve ardından gerekli kütüphaneler import
 edilmiştir.
 
+<img src="path_to_your_image.jpg" alt="Örnek Resim">
+<hr>
+
 “train.csv” dosyası okunup ardından dataframe’e dönüştürülmüştür. Dataframe’e
 “label_name” ve “image_path” sütunları eklenmiştir.
+<img src="path_to_your_image.jpg" alt="Örnek Resim">
+<hr>
 
 Dataframe, train ve test olarak bölünmüştür.
+<img src="path_to_your_image.jpg" alt="Örnek Resim">
+<hr>
 
 İlk 3 adım için veri seti ayrıca incelenmiş. Bazı sınıfların yoğunlukta olduğu
 gözlemlenmiştir.
@@ -28,10 +36,11 @@ gözlemlenmiştir.
 
 4. Sıra modelleri kurmaya geldi. İlk modelimiz “ALEXNET” için katmanları oluşturup model
 kurulmuştur.
-a. ALEXNET için input_shape 227x227x3 dür. Conv2D ile MaxPool2D arasında
-“BatchNormalization” kullanılmıştır. Toplam 6 adet kullanılması uygun
-görülmüştür. Ayrıca Dense katmanlarından sonra 2 adet “Dropout” kullanılmıştır.
-Tüm parametreler resimde görüldüğü gibidir.
+
+    a. ALEXNET için input_shape 227x227x3 dür. Conv2D ile MaxPool2D arasında
+    “BatchNormalization” kullanılmıştır. Toplam 6 adet kullanılması uygun
+    görülmüştür. Ayrıca Dense katmanlarından sonra 2 adet “Dropout” kullanılmıştır.
+    Tüm parametreler resimde görüldüğü gibidir.
 
 5. Alexnet modeli için model compile yapılmış olup SGD, "Stochastic Gradient Descent"
 kullanılmıştır. Learning rate olarak “0.0001” kullanılmıştır. Metrics olarak da accuracy
