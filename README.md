@@ -18,13 +18,13 @@ Geliştirilen mimari detaylıca şöyledir:
 1. Veri setine ait tüm dosyalar yüklenmiştir ve ardından gerekli kütüphaneler import
 edilmiştir.
 
-<table style="border-collapse: collapse; width: 100%;">
+<table >
     <tr>
         <td style="padding: 0; text-align: center;">
-            <img src="image.png" alt="Resim 1" style="max-width: 100%; height: auto; object-fit: contain;">
+            <img src="image.png" alt="Resim 1" width=100%>
         </td>
         <td style="padding: 0; text-align: center;">
-            <img src="2.png" alt="Resim 2" style="max-width: 100%; height: auto; object-fit: contain;">
+            <img src="2.png" alt="Resim 2" width=100%  height=100% >
         </td>
     </tr>
 </table>
