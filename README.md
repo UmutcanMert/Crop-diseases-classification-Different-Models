@@ -193,18 +193,48 @@ MODELLER BİTTİ. TÜM MODELLERİ KARŞILAŞTIRMAK İÇİN TABLO OLUŞTURULMUŞT
 
 
 
-MODEL NORMALİZE DATA
-AUGMENTATION
-
-Data
-Generator
-
-Pretrained
-
-ALEXNET ☑ ☑ ☑ ⮽
-VGGNET ☑ ☑ ☑ ⮽
-RESNET ☑ ☑ ☑ ⮽
-GOOGLENET ☑ ☑ ☑ ☑
+<table>
+    <caption>Model Data Normalization, Augmentation, and Pretraining</caption>
+    <thead>
+        <tr>
+            <th>Model</th>
+            <th>Normalize </th>
+            <th>Data Augmentation</th>
+            <th>Data Generator</th>
+            <th>Pretrained</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>ALEXNET</td>
+            <td>☑</td>
+            <td>☑</td>
+            <td>☑</td>
+            <td>⮽</td>
+        </tr>
+        <tr>
+            <td>VGGNET</td>
+            <td>☑</td>
+            <td>☑</td>
+            <td>☑</td>
+            <td>⮽</td>
+        </tr>
+        <tr>
+            <td>RESNET</td>
+            <td>☑</td>
+            <td>☑</td>
+            <td>☑</td>
+            <td>⮽</td>
+        </tr>
+        <tr>
+            <td>GOOGLENET</td>
+            <td>☑</td>
+            <td>☑</td>
+            <td>☑</td>
+            <td>☑</td>
+        </tr>
+    </tbody>
+</table>
 
 Tüm modeller karşılaştırılmıştır. Buradan şu sonuçları çıkarabiliriz:
 ➔ Alexnet 0.6513 accuracy değerine sahiptir. Katman yapısı, epoch ve image_size yönünden
