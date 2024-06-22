@@ -105,7 +105,7 @@ Model kurulmuştur:
 15. Eğitilmeye başlanmıştır. Ve accuracy – loss grafikleri çizilmiştir. Ayrıca diğer metrik
 karşılaştırmaları için tablo oluşturulmuştur.
 
-17. Diğer metriklerin de bulunduğu tablo:
+17. Diğer metriklerin de bulunduğu tablo oluşturulmuştur.
 <hr>
 
 Eğitim sırasında epoch sayısı 20,40 ve 50 olarak denenmiştir. 20 epochta, daha fazla
