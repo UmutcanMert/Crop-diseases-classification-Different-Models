@@ -21,10 +21,10 @@ edilmiştir.
 <table>
     <tr>
         <td>
-            <img src="image.png" alt=""weight="150" height="300">
+            <img src="image.png" alt="">
         </td>
         <td>
-            <img src="2.png" alt=""weight="50" height="300">        
+            <img src="2.png" alt="">        
         </td>
     </tr>
     
