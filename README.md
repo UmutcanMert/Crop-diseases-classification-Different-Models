@@ -75,6 +75,7 @@ güzel sonuçlar alınmaya çalışılmıştır. Loss olarak da “crossentropy�
 
 <p align="center">
     ALEXNET
+
     <img src="13.png" alt="Resim 1" height="500px" widht="500px">
 </p>
 <hr> 
