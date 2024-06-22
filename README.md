@@ -202,10 +202,9 @@ Epochlar denenmiş, 40 epoch , batch_size olarak 32 uygun görülmüştür.
 
 
 <hr>
-<br>
 
 <table>
-    <caption>Model Accuracy and Parameters</caption>
+    
     <thead>
         <tr>
             <th>Model</th>
@@ -257,7 +256,6 @@ Epochlar denenmiş, 40 epoch , batch_size olarak 32 uygun görülmüştür.
 <hr>
 
 <table>
-    <caption>Model Data Normalization, Augmentation, and Pretraining</caption>
     <thead>
         <tr>
             <th>Model</th>
@@ -304,6 +302,7 @@ Tüm modeller karşılaştırılmıştır. Buradan şu sonuçları çıkarabilir
 diğer modellerden farklıdır. VggNET ve Resnet’e göre daha düzenli gitmiştir. GoogleNET’e
 göre daha dalgalıdır. Bunların nedeni de katman yapısı ve image_size olabilir. Ayrıca
 GoogleNET’te pretrained model kullanılması o modeli daha düzenli hale getirmiştir.
+
 ➔ VggNET 0.63 accuracy değeri almıştır. Alexnet’e benzer skor almıştır. Birkaç puan düşük
 olmasının nedeni katman yapısı, image_size veya epoch sayısı olabilir. Ancak genel olarak
 Alexnet’e benzer şekilde ilerleme kaydetmiştir.
@@ -312,6 +311,7 @@ Alexnet’e benzer şekilde ilerleme kaydetmiştir.
 alınmıştır. Bunun nedeni residual bloklar kullanılması olabilir. Ayrıca 40 epoch olarak da
 denenmiş ama daha düşük skor elde edilmiştir. Bu yüzden eğitim sırasında gelen verilerin
 de düzeni bu skoru etkilemiş olabilir.
+
 ➔ GoogleNET 0.6729 accuracy değeri almıştır. Ancak diğer modellerden farklı olarak
 pretrained model kullanışmıştır. Bu şekilde kullanılması da eğitim sürecini oldukça
 düzenli hale getirmiştir. Bu yönünden dolayı diğer modellerden ayrılır. Buradan pretrained
@@ -319,14 +319,3 @@ model kullanmanın eğitim sürecine nasıl etkili olduğu gözlemlenmiştir.
 Kısaca bu proje kapsamında reverse engineering olmuştur. Alınan hatalara karşı çözümler üretilip,
 deneme yanılma yöntemiyle parametre ayarlamalarıyla da parametrelerin model üzerindeki
 etkileri görülmüştür.
-
-8. Veri artırma jeneratörleri (data augmentation generator), her bir epoch (iterasyon)
-sırasında görüntülerin farklı varyasyonlarını sağlayarak eğitim veri setini sürekli olarak
-çeşitlendirir ve modelin daha genelleştirilebilir olmasını sağlar. Bu şekilde, overfitting
-(aşırı uyum) riski azaltılır ve daha iyi bir model performansı elde edilir. Bu yüzden
-mimaride de kullanılması uygun görülmüştür.
-
-9. Alexnet modeli eğitilmiştir ve accuracy değeri 0.6513 olarak bitmiştir.
-
-10. Alexnet modelinin çıktıları “accuracy-val_accuracy” ve “loss-val_loss” grafikleri
-çizilmiştir.
