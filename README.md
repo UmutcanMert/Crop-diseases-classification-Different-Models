@@ -174,12 +174,20 @@ alınmaya çalışılmıştır. Loss olarak da “crossentropy” kullanılmış
 <hr> 
 <hr>
 
-GOOGLENET:
+<h3>GOOGLENET:</h3>
+
 Son modelimiz olan GoogleNET için pretrained model kullanılarak yapılmıştır. İmagenet
 adlı veri setinin ağırlıklarını alarak başlayan modelimiz daha sonrasında kendi veri setimiz
 üzerinde eğitilmiştir.
+
+<p align="center">
+    <img src="20.png" alt="Resim 1" height="500px" widht="500px">
+</p>
+
 > Tensorflow.keras.application ‘dan çağrılan InceptionV3 kullanılarak yapılmıştır.
 InceptionV3, googleNET’in 3.versiyonu diyebiliriz. Daha geliştirilmiş halidir.
+
+
 21. Model kurulmuş ve compile edilmiştir. Ardından özeti gösterilmiştir.
 
 22. Bu aşamada batch_size, epoch, image_widht, image_height parametreleri belirlenmiştir
@@ -189,14 +197,12 @@ googlenet modeline uygun olarak. Ayrıca data augmentation generator uygulanmı�
 23. Model eğitilmiştir. Accuracy-loss grafikleri ve diğer tüm metrikler için tablo
 oluşturulmuştur.
 
-GOOGLENET İÇİN PARAMETRELER:
-Epochs = 40 / Batch_size = 32 / input_shape=224*224*3 / optimizers: SGD / learning rate:0.0001,
-Loss: categorical_crossentropy
-Parametreler yukarıdaki gibidir. Optimizer olarak SGD (scholastic gradient descent) kullanılmıştır.
+Optimizer olarak SGD (scholastic gradient descent) kullanılmıştır.
 Epochlar denenmiş, 40 epoch , batch_size olarak 32 uygun görülmüştür.
-MODELLER BİTTİ. TÜM MODELLERİ KARŞILAŞTIRMAK İÇİN TABLO OLUŞTURULMUŞTUR.
+
 
 <hr>
+MODELLER BİTTİ. TÜM MODELLERİ KARŞILAŞTIRMAK İÇİN TABLO OLUŞTURULMUŞTUR.
 
 <table>
     <caption>Model Accuracy and Parameters</caption>
