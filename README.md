@@ -3,6 +3,8 @@
 
 Yukarıda belirtilen linkteki ilgili veri seti üzerinde proje uygulanmıştır.
 
+Projenin kodlarını görmek ve incelemek istiyorsanız [buradan](https://www.kaggle.com/code/umutcanmert/crop-diseases-classification-different-models-vs) ulalaşabilirsiniz.
+
 Proje kapsamında ilgili veri seti ile;
 1. Alexnet, VGGnet, Resnet ve Googlenet mimarileriyle modellerinin kurulması
 2. Model için öğrenme hızı, kernel boyutu, padding vb. farklı parametre ayarlamaları
