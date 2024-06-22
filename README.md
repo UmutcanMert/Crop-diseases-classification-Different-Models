@@ -88,7 +88,7 @@ güzel sonuçlar alınmaya çalışılmıştır. Loss olarak da “crossentropy�
 11. Bu adımla birlikte aslında işlemler tekrarlanıyor. Adım 4’ ü diğer model için uygula, adım
 5 uygula, epoch, batch_size vs ayarla, adım 7-8-9’u uygula sıradaki model için.
 ******************************************************************************************
-<h4>VGGNET:</h4>
+<h3>VGGNET:</h3>
 
 12. VGGnet için, “VGGnet16” mimarisi uygulanmaya çalışılmıştır. Sırayla önce model kurulup
 sonra compiler edilmiştir. Ardından gerekli ara işlemler uygulanıp eğitilmiştir. Grafik ve
@@ -130,7 +130,7 @@ alınmaya çalışılmıştır. Loss olarak da “crossentropy” kullanılmış
 <hr> 
 <hr>
 
-RESNET:
+<h3>RESNET:</h3>
 
 Resnet mimarisi için biraz araştırma yaptıktan sonra “Resnet18” mimarisi hem hız hem
 optimize kolaylığından kullanılması kararlaştırılmıştır. Önceki modellerde olduğu gibi model önce
@@ -149,19 +149,31 @@ modellerdeki gibi.
 
 20. Resnet modeli 20 epoch olacak şekilde eğitilmiştir ve accuracy-loss grafikleri çizilmiştir.
 Ayrıca f1-score, recall gibi metrikler içinde tablo oluşturulmuştur.
+<hr>
 
-RESNET İÇİN PARAMETRELER:
-Epochs = 20 / Batch_size = 32 / input_shape=224*224*3 / optimizers: SGD / learning rate:0.0001
-Loss: categorical_crossentropy
 Eğitim sırasında epoch sayısı 20,40 olarak denenmiştir. 40 epochta, belirli bir yerden accuracy
 değerinin stabil kalmaya başladığı görülmüştür. 20 epoch denendiğinde hem tüm epochlar
 boyunca accuracy kısmında artış, hem de loss kısmında azalış görülmüştür. Bu epoch sayısında
 daha güzel sonuçlar alındığından bu değer seçilmiştir.
+
 Batch_size kısmında 32,64,128 denenmiş ve en iyi ve düzenli sonuçları 32 olduğunda alındığı
 gözlemlenmiştir. Optimizers kısmında “SGD”, “ADAM” türleri kullanılmış ve “Adam” türünde çok
 fazla dengesizlikler olduğu saptanmış ve SGD seçilmiştir. Böylece daha düzenli ve güzel sonuçlar
 alınmaya çalışılmıştır. Loss olarak da “crossentropy” kullanılmıştır.
-“”””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””””
+
+<p align="center">
+    RESNET
+</p>
+<p align="center">
+    <img src="13.png" alt="Resim 1" height="500px" widht="500px">
+</p>
+<p align="center">
+    <img src="14.png" alt="Resim 1"  height="200px" widht="200px">
+</p>
+<hr> 
+<hr>
+
+
 GOOGLENET:
 Son modelimiz olan GoogleNET için pretrained model kullanılarak yapılmıştır. İmagenet
 adlı veri setinin ağırlıklarını alarak başlayan modelimiz daha sonrasında kendi veri setimiz
@@ -184,7 +196,7 @@ Parametreler yukarıdaki gibidir. Optimizer olarak SGD (scholastic gradient desc
 Epochlar denenmiş, 40 epoch , batch_size olarak 32 uygun görülmüştür.
 MODELLER BİTTİ. TÜM MODELLERİ KARŞILAŞTIRMAK İÇİN TABLO OLUŞTURULMUŞTUR.
 
-
+<hr>
 
 <table>
     <caption>Model Accuracy and Parameters</caption>
@@ -236,7 +248,7 @@ MODELLER BİTTİ. TÜM MODELLERİ KARŞILAŞTIRMAK İÇİN TABLO OLUŞTURULMUŞT
 
 
 
-
+<hr>
 
 <table>
     <caption>Model Data Normalization, Augmentation, and Pretraining</caption>
