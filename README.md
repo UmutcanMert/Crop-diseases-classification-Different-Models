@@ -52,22 +52,37 @@ kurulmuştur.
     görülmüştür. Ayrıca Dense katmanlarından sonra 2 adet “Dropout” kullanılmıştır.
     Tüm parametreler resimde görüldüğü gibidir.
 
-5. Alexnet modeli için model compile yapılmış olup SGD, "Stochastic Gradient Descent"
+    <p align="center">
+        <img src="5.png" alt="Resim 1">
+    </p>
+    <hr>
+
+6. Alexnet modeli için model compile yapılmış olup SGD, "Stochastic Gradient Descent"
 kullanılmıştır. Learning rate olarak “0.0001” kullanılmıştır. Metrics olarak da accuracy
 yapılmıştır.
 
-6. Bu adımda “epochs”, “batch_size”, ”image_height”, “image_widht” parametleri statik
+7. Bu adımda “epochs”, “batch_size”, ”image_height”, “image_widht” parametleri statik
 olarak belirlenmiştir. Bu hem modele uygunluk için hem de optimum sonuçları almak için
 deneme yanılma yoluyla böyle belirlenmiştir.
-a. Ardından veri normalize edilip veri artırma işlemi için “ImageDataGenerator”
-fonksiyonu kullanılmıştır. Bu fonksiyondaki parametre ayarları yine deneme
-yanılma yoluyla denenmiş ve buna göre ayarlanmıştır. Resimde tüm parametreler
-gözükmektedir.
+
+    a. Ardından veri normalize edilip veri artırma işlemi için “ImageDataGenerator”
+    fonksiyonu kullanılmıştır. Bu fonksiyondaki parametre ayarları yine deneme
+    yanılma yoluyla denenmiş ve buna göre ayarlanmıştır.
 
 
 ALEXNET İÇİN PARAMETRELER:
-Epochs = 50 / Batch_size = 32 / input_shape=227*227*3 / optimizers: SGD / learning rate:0.0001
+Epochs = 50
+
+Batch_size = 32
+
+input_shape=227*227*3
+
+optimizers: SGD
+
+learning rate:0.0001
+
 Loss: categorical_crossentropy
+
 Eğitim sırasında epoch sayısı 10,20,40 ve 50 olarak ayarlanmış ve 50 epoch uygun görülmüştür.
 Batch_size kısmında 16,32,64 ve 128 denenmiş ve en iyi ve düzenli sonuçları 32 olduğunda
 alındığı gözlemlenmiştir. Optimizers kısmında “SGD”, “ADAM” türleri kullanılmış ve “Adam”
