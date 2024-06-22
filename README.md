@@ -255,8 +255,8 @@ Epochlar denenmiş, 40 epoch , batch_size olarak 32 uygun görülmüştür.
 <hr>
 
 <table align="center">
-    <thead align="center">
-        <tr>
+    <thead>
+        <tr align="center">
             <th>Model</th>
             <th>Normalize </th>
             <th>Data Augmentation</th>
@@ -265,14 +265,14 @@ Epochlar denenmiş, 40 epoch , batch_size olarak 32 uygun görülmüştür.
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <tr align="center">
             <td>ALEXNET</td>
             <td>☑</td>
             <td>☑</td>
             <td>☑</td>
             <td>⮽</td>
         </tr>
-        <tr>
+        <tr align="center">
             <td>VGGNET</td>
             <td>☑</td>
             <td>☑</td>
@@ -286,7 +286,7 @@ Epochlar denenmiş, 40 epoch , batch_size olarak 32 uygun görülmüştür.
             <td>☑</td>
             <td>⮽</td>
         </tr>
-        <tr>
+        <tr align="center">
             <td>GOOGLENET</td>
             <td>☑</td>
             <td>☑</td>
