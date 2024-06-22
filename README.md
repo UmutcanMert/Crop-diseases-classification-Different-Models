@@ -28,7 +28,7 @@ gözlemlenmiştir.
 
 4. Sıra modelleri kurmaya geldi. İlk modelimiz “ALEXNET” için katmanları oluşturup model
 kurulmuştur.
-a. ALEXNET için input_shape 227*227*3 dür. Conv2D ile MaxPool2D arasında
+a. ALEXNET için input_shape 227x227x3 dür. Conv2D ile MaxPool2D arasında
 “BatchNormalization” kullanılmıştır. Toplam 6 adet kullanılması uygun
 görülmüştür. Ayrıca Dense katmanlarından sonra 2 adet “Dropout” kullanılmıştır.
 Tüm parametreler resimde görüldüğü gibidir.
