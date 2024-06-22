@@ -35,7 +35,7 @@ edilmiştir.
 <hr>
 
 Dataframe, train ve test olarak bölünmüştür.
-<p>
+<p align="center">
     <img src="4.png" alt="Resim 1">
 </p>
 <hr>
