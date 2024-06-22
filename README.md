@@ -27,7 +27,11 @@ edilmiştir.
 
 “train.csv” dosyası okunup ardından dataframe’e dönüştürülmüştür. Dataframe’e
 “label_name” ve “image_path” sütunları eklenmiştir.
-<img src="path_to_your_image.jpg" alt="Örnek Resim">
+
+<p align="center">
+    <img src="3.png" alt="Resim 1" height="300px">
+</p>
+
 <hr>
 
 Dataframe, train ve test olarak bölünmüştür.
