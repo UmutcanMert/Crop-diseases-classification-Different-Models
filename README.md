@@ -215,7 +215,7 @@ Epochlar denenmiş, 40 epoch , batch_size olarak 32 uygun görülmüştür.
         </tr>
     </thead>
     <tbody>
-        <tr>
+        <tr align="center">
             <td>ALEXNET</td>
             <td>0.6513</td>
             <td>50</td>
@@ -223,7 +223,7 @@ Epochlar denenmiş, 40 epoch , batch_size olarak 32 uygun görülmüştür.
             <td>227x227x3</td>
             <td>SGD<br>0.0001</td>
         </tr>
-        <tr>
+        <tr align="center">
             <td>VGGNET</td>
             <td>0.6341</td>
             <td>40</td>
@@ -231,7 +231,7 @@ Epochlar denenmiş, 40 epoch , batch_size olarak 32 uygun görülmüştür.
             <td>224x224x3</td>
             <td>SGD<br>0.0001</td>
         </tr>
-        <tr>
+        <tr align="center">
             <td>RESNET</td>
             <td>0.8125</td>
             <td>20</td>
@@ -239,7 +239,7 @@ Epochlar denenmiş, 40 epoch , batch_size olarak 32 uygun görülmüştür.
             <td>224x224x3</td>
             <td>SGD<br>0.0001</td>
         </tr>
-        <tr>
+        <tr align="center">
             <td>GOOGLENET</td>
             <td>0.6729</td>
             <td>40</td>
@@ -279,7 +279,7 @@ Epochlar denenmiş, 40 epoch , batch_size olarak 32 uygun görülmüştür.
             <td>☑</td>
             <td>⮽</td>
         </tr>
-        <tr>
+        <tr align="center">
             <td>RESNET</td>
             <td>☑</td>
             <td>☑</td>
