@@ -202,7 +202,7 @@ Epochlar denenmiş, 40 epoch , batch_size olarak 32 uygun görülmüştür.
 
 
 <hr>
-MODELLER BİTTİ. TÜM MODELLERİ KARŞILAŞTIRMAK İÇİN TABLO OLUŞTURULMUŞTUR.
+<br>
 
 <table>
     <caption>Model Accuracy and Parameters</caption>
