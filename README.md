@@ -79,6 +79,9 @@ güzel sonuçlar alınmaya çalışılmıştır. Loss olarak da “crossentropy�
 <p align="center">
     <img src="13.png" alt="Resim 1" height="500px" widht="500px">
 </p>
+<p align="center">
+    <img src="alex-tablo.png" alt="Resim 1">
+</p>
 <hr> 
 <hr>
 
@@ -91,8 +94,9 @@ güzel sonuçlar alınmaya çalışılmıştır. Loss olarak da “crossentropy�
 sonra compiler edilmiştir. Ardından gerekli ara işlemler uygulanıp eğitilmiştir. Grafik ve
 tablo çizilmiştir.
 
-Model kurulmuştur:
 <hr>
+Model kurulmuştur:
+
 13. Compile edilip, summary’sine (Katman katman gösterir) bakılmıştır:
 
 14. Parametreler ayarlanıp, data augmentation generator (veri artırma jeneratörü) kodu
