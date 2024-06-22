@@ -221,7 +221,7 @@ Epochlar denenmiş, 40 epoch , batch_size olarak 32 uygun görülmüştür.
             <td>50</td>
             <td>32</td>
             <td>227x227x3</td>
-            <td>SGD 0.0001</td>
+            <td>SGD<br>0.0001</td>
         </tr>
         <tr>
             <td>VGGNET</td>
@@ -229,7 +229,7 @@ Epochlar denenmiş, 40 epoch , batch_size olarak 32 uygun görülmüştür.
             <td>40</td>
             <td>32</td>
             <td>224x224x3</td>
-            <td>SGD 0.0001</td>
+            <td>SGD<br>0.0001</td>
         </tr>
         <tr>
             <td>RESNET</td>
@@ -237,7 +237,7 @@ Epochlar denenmiş, 40 epoch , batch_size olarak 32 uygun görülmüştür.
             <td>20</td>
             <td>32</td>
             <td>224x224x3</td>
-            <td>SGD 0.0001</td>
+            <td>SGD<br>0.0001</td>
         </tr>
         <tr>
             <td>GOOGLENET</td>
@@ -245,7 +245,7 @@ Epochlar denenmiş, 40 epoch , batch_size olarak 32 uygun görülmüştür.
             <td>40</td>
             <td>32</td>
             <td>224x224x3</td>
-            <td>SGD 0.0001</td>
+            <td>SGD<br>0.0001</td>
         </tr>
     </tbody>
 </table>
@@ -297,6 +297,7 @@ Epochlar denenmiş, 40 epoch , batch_size olarak 32 uygun görülmüştür.
 </table>
 
 Tüm modeller karşılaştırılmıştır. Buradan şu sonuçları çıkarabiliriz:
+
 ➔ Alexnet 0.6513 accuracy değerine sahiptir. Katman yapısı, epoch ve image_size yönünden
 diğer modellerden farklıdır. VggNET ve Resnet’e göre daha düzenli gitmiştir. GoogleNET’e
 göre daha dalgalıdır. Bunların nedeni de katman yapısı ve image_size olabilir. Ayrıca
