@@ -18,7 +18,7 @@ Geliştirilen mimari detaylıca şöyledir:
 1. Veri setine ait tüm dosyalar yüklenmiştir ve ardından gerekli kütüphaneler import
 edilmiştir.
 
-<table style="border-collapse: collapse;">
+<table style="border-collapse: collapse;" weight=100%; height=100%>
     <tr>
         <td style="border: none;">
             <img src="image.png" alt="Resim 1">
