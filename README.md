@@ -23,8 +23,8 @@ edilmiştir.
         <td style="padding: 0; text-align: center;">
             <img src="image.png" alt="Resim 1" width=100%>
         </td>
-        <td style="padding: 0; text-align: center;">
-            <img src="2.png" alt="Resim 2" width=100%  height=100% >
+        <td style="width:100%;  height:100%">
+            <img src="2.png" alt="Resim 2" >
         </td>
     </tr>
 </table>
