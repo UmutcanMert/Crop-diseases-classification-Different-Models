@@ -65,25 +65,9 @@ yapılmıştır.
 olarak belirlenmiştir. Bu hem modele uygunluk için hem de optimum sonuçları almak için
 deneme yanılma yoluyla böyle belirlenmiştir.
 
-    a. Ardından veri normalize edilip veri artırma işlemi için “ImageDataGenerator”
-    fonksiyonu kullanılmıştır. Bu fonksiyondaki parametre ayarları yine deneme
-    yanılma yoluyla denenmiş ve buna göre ayarlanmıştır.
+    # # # a. Ardından veri normalize edilip veri artırma işlemi için “ImageDataGenerator” fonksiyonu kullanılmıştır. Bu fonksiyondaki parametre ayarları yine deneme yanılma yoluyla denenmiş ve buna göre ayarlanmıştır.
 
-<hr>
-<h2>ALEXNET İÇİN PARAMETRELER:</h2> 
 
-Epochs = 50
-
-Batch_size = 32
-
-input_shape=227*227*3
-
-optimizers: SGD
-
-learning rate:0.0001
-
-Loss: categorical_crossentropy
-<hr>
 
 Eğitim sırasında epoch sayısı 10,20,40 ve 50 olarak ayarlanmış ve 50 epoch uygun görülmüştür.
 Batch_size kısmında 16,32,64 ve 128 denenmiş ve en iyi ve düzenli sonuçları 32 olduğunda
