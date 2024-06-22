@@ -166,7 +166,7 @@ alınmaya çalışılmıştır. Loss olarak da “crossentropy” kullanılmış
 </p>
 <p align="center">
     <img src="resnet-accuracy.png" alt="Resim 1" height="500px" widht="500px">
-    <img src="resnet-loss" alt="Resim 1" height="500px" widht="500px">
+    <img src="resnet-loss.png" alt="Resim 1" height="500px" widht="500px">
 </p>
 <p align="center">
     <img src="resnet-tablo.png" alt="Resim 1"  height="200px" widht="200px">
