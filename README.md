@@ -19,7 +19,7 @@ Geliştirilen mimari detaylıca şöyledir:
 edilmiştir.
 
 <p align="center">
-    <img src="image.png" alt="Resim 1" width="45%">
+    <img src="image.png" alt="Resim 1" width="45%" height="300px">
     <img src="2.png" alt="Resim 2" width="45%" height="300px">
 </p>
 
