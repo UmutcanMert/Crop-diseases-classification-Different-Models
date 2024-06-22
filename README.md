@@ -10,7 +10,7 @@ Proje kapsamında ilgili veri seti ile;
 performansı için bir karşılaştırma tablosu
 4. Geliştirilen mimarinin detaylıca anlatımı
 5. En iyi performans elde edilen parametre değerleri sunulmuştur.
-
+<hr>
 Mimari de genel olarak önce veri hazırlanmış, gerekli preprocessing işlemler uygulanmış, sonrasında model
 kurulup eğitilmiş ve grafik ile tablolar oluşturulmuştur.
 Geliştirilen mimari detaylıca şöyledir:
