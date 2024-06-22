@@ -35,7 +35,9 @@ edilmiştir.
 <hr>
 
 Dataframe, train ve test olarak bölünmüştür.
-<img src="path_to_your_image.jpg" alt="Örnek Resim">
+<p align="center">
+    <img src="4.png" alt="Resim 1" height="300px">
+</p>
 <hr>
 
 İlk 3 adım için veri seti ayrıca incelenmiş. Bazı sınıfların yoğunlukta olduğu
