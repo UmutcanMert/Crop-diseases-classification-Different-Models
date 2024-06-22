@@ -204,7 +204,7 @@ Epochlar denenmiş, 40 epoch , batch_size olarak 32 uygun görülmüştür.
 <hr>
 
 <table align="center">
-    <thead>
+    <thead align="center">
         <tr>
             <th>Model</th>
             <th>Accuracy</th>
@@ -254,8 +254,8 @@ Epochlar denenmiş, 40 epoch , batch_size olarak 32 uygun görülmüştür.
 
 <hr>
 
-<table>
-    <thead>
+<table align="center">
+    <thead align="center">
         <tr>
             <th>Model</th>
             <th>Normalize </th>
