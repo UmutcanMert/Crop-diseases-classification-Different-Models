@@ -139,32 +139,83 @@ Parametreler yukarıdaki gibidir. Optimizer olarak SGD (scholastic gradient desc
 Epochlar denenmiş, 40 epoch , batch_size olarak 32 uygun görülmüştür.
 MODELLER BİTTİ. TÜM MODELLERİ KARŞILAŞTIRMAK İÇİN TABLO OLUŞTURULMUŞTUR.
 
-MODEL KARŞILAŞTIRMA TABLOSU
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Model Performance</title>
+<style>
+    table {
+        width: 80%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        text-align: center;
+    }
+    table, th, td {
+        border: 1px solid black;
+    }
+    th, td {
+        padding: 10px;
+    }
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
+</head>
+<body>
 
-MODEL ACCURACY EPOCH BATCH_SIZE IMAGE_SIZE
+<table>
+    <caption>Model Accuracy and Parameters</caption>
+    <thead>
+        <tr>
+            <th>Model</th>
+            <th>Accuracy</th>
+            <th>Epoch</th>
+            <th>Batch Size</th>
+            <th>Image Size</th>
+            <th>Optimizer & Learning Rate</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>ALEXNET</td>
+            <td>0.6513</td>
+            <td>50</td>
+            <td>32</td>
+            <td>227x227x3</td>
+            <td>SGD 0.0001</td>
+        </tr>
+        <tr>
+            <td>VGGNET</td>
+            <td>0.6341</td>
+            <td>40</td>
+            <td>32</td>
+            <td>224x224x3</td>
+            <td>SGD 0.0001</td>
+        </tr>
+        <tr>
+            <td>RESNET</td>
+            <td>0.8125</td>
+            <td>20</td>
+            <td>32</td>
+            <td>224x224x3</td>
+            <td>SGD 0.0001</td>
+        </tr>
+        <tr>
+            <td>GOOGLENET</td>
+            <td>0.6729</td>
+            <td>40</td>
+            <td>32</td>
+            <td>224x224x3</td>
+            <td>SGD 0.0001</td>
+        </tr>
+    </tbody>
+</table>
 
-OPTIMIZER &
-LEARNING
-RATE
-ALEXNET 0.6513 50 32 227*227*3
+</body>
+</html>
 
-SGD
-0.0001
-
-VGGNET 0.6341 40 32 224*224*3
-
-SGD
-0.0001
-
-RESNET 0.8125 20 32 224*224*3
-
-SGD
-0.0001
-
-GOOGLENET 0.6729 40 32 224*224*3
-
-SGD
-0.0001
 
 MODEL NORMALİZE DATA
 AUGMENTATION
