@@ -70,7 +70,7 @@ deneme yanılma yoluyla böyle belirlenmiştir.
     yanılma yoluyla denenmiş ve buna göre ayarlanmıştır.
 
 <hr>
-#### ALEXNET İÇİN PARAMETRELER:
+<h2>ALEXNET İÇİN PARAMETRELER:</h2> 
 
 Epochs = 50
 
