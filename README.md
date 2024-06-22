@@ -181,7 +181,7 @@ adlı veri setinin ağırlıklarını alarak başlayan modelimiz daha sonrasınd
 üzerinde eğitilmiştir.
 
 <p align="center">
-    <img src="20.png" alt="Resim 1" height="500px" widht="500px">
+    <img src="20.png" alt="Resim 1" height="250px" widht="250px">
 </p>
 
 > Tensorflow.keras.application ‘dan çağrılan InceptionV3 kullanılarak yapılmıştır.
