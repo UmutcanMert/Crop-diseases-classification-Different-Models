@@ -53,7 +53,7 @@ kurulmuştur.
     Tüm parametreler resimde görüldüğü gibidir.
 
     <p align="center">
-        <img src="5.png" alt="Resim 1" height="300px">
+        <img src="5.png" alt="Resim 1" height="500px" widht="500px">
     </p>
     <hr>
 
