@@ -19,7 +19,7 @@ Geliştirilen mimari detaylıca şöyledir:
 edilmiştir.
 
 <div class="image-container">
-    <img src="image.png" alt=""weight="500" height="500">
+    <img src="image.png" alt=""weight="200" height="300">
     <img src="path_to_your_image2.jpg" alt="Resim 2">
 </div>
 <hr>
