@@ -9,4 +9,13 @@ Proje kapsamında ilgili veri seti ile;
 3. Doğruluk, Kesinlik, Geri Çağırma, F-ölçüsüne dayalı olarak sonuçları içeren modellerin
 performansı için bir karşılaştırma tablosu
 4. Geliştirilen mimarinin detaylıca anlatımı
-5. En iyi performans elde edilen parametre değerleri sunulmuştur
+5. En iyi performans elde edilen parametre değerleri sunulmuştur.
+
+çalışılmıştır. Mimari de genel
+olarak önce veri hazırlanmış, gerekli preprocessing işlemler uygulanmış, sonrasında model
+kurulup eğitilmiş ve grafik ile tablolar oluşturulmuştur.
+Geliştirilen mimari detaylıca şöyledir:
+1. Veri setine ait tüm dosyalar yüklenmiştir ve ardından gerekli kütüphaneler import
+edilmiştir.
+“train.csv” dosyası okunup ardından dataframe’e dönüştürülmüştür. Dataframe’e
+“label_name” ve “image_path” sütunları eklenmiştir.
