@@ -18,7 +18,10 @@ Geliştirilen mimari detaylıca şöyledir:
 1. Veri setine ait tüm dosyalar yüklenmiştir ve ardından gerekli kütüphaneler import
 edilmiştir.
 
-<img src="image.png" alt="">
+<div class="image-container">
+    <img src="image.png" alt=""weight="100" height="100">
+    <img src="path_to_your_image2.jpg" alt="Resim 2">
+</div>
 <hr>
 
 “train.csv” dosyası okunup ardından dataframe’e dönüştürülmüştür. Dataframe’e
