@@ -74,6 +74,7 @@ türünde çok fazla dengesizlikler olduğu saptanmış ve SGD seçilmiştir. B�
 güzel sonuçlar alınmaya çalışılmıştır. Loss olarak da “crossentropy” kullanılmıştır.
 
 <p align="center">
+    <p>ALEXNET</p>
     <img src="13.png" alt="Resim 1" height="500px" widht="500px">
 </p>
 <hr> 
