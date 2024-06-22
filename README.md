@@ -165,14 +165,14 @@ alınmaya çalışılmıştır. Loss olarak da “crossentropy” kullanılmış
     RESNET
 </p>
 <p align="center">
-    <img src="13.png" alt="Resim 1" height="500px" widht="500px">
+    <img src="resnet-accuracy.png" alt="Resim 1" height="500px" widht="500px">
+    <img src="resnet-loss" alt="Resim 1" height="500px" widht="500px">
 </p>
 <p align="center">
-    <img src="14.png" alt="Resim 1"  height="200px" widht="200px">
+    <img src="resnet-tablo.png" alt="Resim 1"  height="200px" widht="200px">
 </p>
 <hr> 
 <hr>
-
 
 GOOGLENET:
 Son modelimiz olan GoogleNET için pretrained model kullanılarak yapılmıştır. İmagenet
