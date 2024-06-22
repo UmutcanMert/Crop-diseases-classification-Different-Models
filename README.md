@@ -203,7 +203,7 @@ Epochlar denenmiş, 40 epoch , batch_size olarak 32 uygun görülmüştür.
 
 <hr>
 
-<table>
+<table align="center">
     <thead>
         <tr>
             <th>Model</th>
