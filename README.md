@@ -18,19 +18,16 @@ Geliştirilen mimari detaylıca şöyledir:
 1. Veri setine ait tüm dosyalar yüklenmiştir ve ardından gerekli kütüphaneler import
 edilmiştir.
 
-<table style="border: none; border-collapse: collapse;">
+<table style="border: none; border-collapse: collapse; width: 100%;">
     <tr style="border: none;">
         <td style="padding: 0; text-align: center; border: none;">
-            <img src="image.png" alt="Resim 1" width="100%">
+            <img src="image.png" alt="Resim 1" style="width: 100%; border: none;">
         </td>
         <td style="width: 100%; height: 100%; border: none;">
-            <img src="2.png" alt="Resim 2">
+            <img src="2.png" alt="Resim 2" style="width: 100%; border: none;">
         </td>
     </tr>
 </table>
-
-
-
 <hr>
 
 “train.csv” dosyası okunup ardından dataframe’e dönüştürülmüştür. Dataframe’e
