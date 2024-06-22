@@ -53,7 +53,7 @@ kurulmuştur.
     Tüm parametreler resimde görüldüğü gibidir.
 
     <p align="center">
-        <img src="5.png" alt="Resim 1">
+        <img src="5.png" alt="Resim 1" height="300px">
     </p>
     <hr>
 
@@ -69,8 +69,9 @@ deneme yanılma yoluyla böyle belirlenmiştir.
     fonksiyonu kullanılmıştır. Bu fonksiyondaki parametre ayarları yine deneme
     yanılma yoluyla denenmiş ve buna göre ayarlanmıştır.
 
+<hr>
+#### ALEXNET İÇİN PARAMETRELER:
 
-ALEXNET İÇİN PARAMETRELER:
 Epochs = 50
 
 Batch_size = 32
@@ -82,6 +83,7 @@ optimizers: SGD
 learning rate:0.0001
 
 Loss: categorical_crossentropy
+<hr>
 
 Eğitim sırasında epoch sayısı 10,20,40 ve 50 olarak ayarlanmış ve 50 epoch uygun görülmüştür.
 Batch_size kısmında 16,32,64 ve 128 denenmiş ve en iyi ve düzenli sonuçları 32 olduğunda
